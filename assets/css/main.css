@@ -3457,9 +3457,12 @@ body.is-menu-visible #menu .close {
 /********* Seiko and Kaisen CSS *********/
 #banner{
 	background: url(../../images/banner.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
 	min-height: 70%;
-	min-width: 1024px;
+	/* min-width: 1024px; */
 	width: 100%;
 	height: auto;
 	position: absolute;
@@ -3607,6 +3610,7 @@ strong, b {
 	}
 }
 
+
 @media screen and (max-width: 900px){
 	.kdlogo_top {
 		font-size: 55px;
@@ -3636,5 +3640,9 @@ strong, b {
 		float:none;
 		padding: 0;
 		max-width:100%;
+	}
+
+	#banner{
+		background: url(../../images/banner-small.png) no-repeat center center;
 	}
 }
