@@ -3459,7 +3459,6 @@ body.is-menu-visible #menu .close {
 	background: url(../../images/banner.png) no-repeat center center fixed;
 	background-size: cover;
 	min-height: 70%;
-	min-width: 1024px;
 	width: 100%;
 	height: auto;
 	position: absolute;
