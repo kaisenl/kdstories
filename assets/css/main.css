@@ -3462,7 +3462,6 @@ body.is-menu-visible #menu .close {
 	-o-background-size: cover;
 	background-size: cover;
 	min-height: 70%;
-	/* min-width: 1024px; */
 	width: 100%;
 	height: auto;
 	position: absolute;
